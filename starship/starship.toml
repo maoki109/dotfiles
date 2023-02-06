@@ -1,0 +1,19 @@
+format = """
+$username $time $all
+"""
+
+[git_branch]
+symbol = '🌱'
+
+[python]
+style = 'green'
+
+[time]
+style = 'yellow'
+format = '\[🕙[$time]($style)\]'
+disabled = false
+
+[username]
+format = '\[[$user]($style)\]'
+disabled = false
+show_always = false
