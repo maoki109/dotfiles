@@ -6,6 +6,6 @@ activate_yolov5 () {
   source /home/mariaoki/Documents/YOLOv5/bin/activate
 }
 
-activate_rust () {
-  source /home/mariaoki/Documents/Rust/bin/activate
+rust_book () {
+  rustup docs --book
 }
